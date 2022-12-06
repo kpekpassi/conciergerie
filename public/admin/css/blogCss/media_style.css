@@ -1,0 +1,514 @@
+body {
+    background-color: #f9f7f4 !important;
+}
+
+
+/* .search-popup {
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 99999;
+    opacity: 0;
+    visibility: hidden;
+}  */
+
+.content {
+    padding-top: 120px;
+    margin: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.content2 {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.colunn1 {
+    width: 55%;
+    margin-bottom: auto;
+    margin-right: 70px;
+}
+
+.colunn1b {
+    width: 65%;
+    margin-bottom: auto;
+    margin-right: 50px;
+    z-index:2;
+    background-color:#f9f7f4
+}
+
+.title h1 {
+    font-size: 4rem !important;
+    font-weight: 700;
+}
+
+.colunn2 {
+    width: 45%;
+    margin-top: 150px;
+    margin-left: auto;
+    position: relative;
+}
+
+.colunn2b {
+    width: 30%;
+    margin-top: 150px;
+    margin-left: auto;
+    position: relative;
+}
+
+.wid2 {
+    position: sticky;
+    top: 200px;
+    margin-bottom: 50px;
+}
+
+.wid3 {
+    overflow: hidden;
+    height: 390px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.vid1 {
+    transform: scale(2);
+    height: auto;
+    position: relative;
+    bottom: -80px;
+}
+
+
+/* .video-accordeon{
+	width: 100%;
+}
+
+.video-accordeon video{
+	border-radius: 10px;
+} */
+
+.colunn3 {
+    width: 40%;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.text {
+    padding-top: 30px;
+    font-size: 20px;
+    border-top: 1px solid #D0C6B6;
+}
+
+.link {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.link button {
+    text-align: left;
+    width: 100%;
+    color: white;
+    background-color: #E7AA7A;
+    position: relative;
+    padding: 15px;
+    border: 1px solid #E7AA7A;
+    border-radius: 5px;
+}
+
+.link button:hover {
+    color: white;
+    background-color: #EA6D49;
+}
+
+.link i {
+    position: absolute;
+    right: 15px;
+    font-size: 25px;
+    padding: 5px;
+    padding-left: 10px;
+    border-left: 1px solid white;
+}
+
+.accordion-item {
+    background-color: transparent;
+}
+
+.accordion-button {
+    background-color: #E7AA7A;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #EA6D49;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../../images/arrow.svg");
+    transform: rotate(0deg);
+}
+
+.accordion-button::after {
+    transform: rotate(90deg);
+    flex-shrink: 0;
+    width: 15px;
+    height: 15px;
+    margin-left: auto;
+    content: "";
+    background-image: url("../../images/arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    transition: transform .2s ease-in-out;
+}
+
+.news-content {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #D0C6B6;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content:nth-child(odd) {
+    background: #f5ddb8 !important;
+}
+
+#content3 {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #D0C6B6;
+}
+
+#dat {
+    width: 15%;
+    margin-right: auto;
+    text-align: center;
+}
+
+#dat strong {
+    font-size: 60px;
+}
+
+#dat span {
+    font-size: 20px;
+}
+
+#dat img {
+    padding-top: 40px;
+}
+
+#comment {
+    width: 80%;
+    padding-bottom: auto;
+}
+
+#comment strong {
+    font-size: 30px;
+}
+
+#comment strong:hover {
+    color: #EA6D49;
+}
+
+#comment2 {
+    width: 100%;
+}
+
+#comment2 strong {
+    font-size: 22px;
+}
+
+#comment2 strong:hover {
+    color: #EA6D49;
+}
+
+#comment3 strong {
+    font-size: 30px;
+    color: #563C3A;
+}
+
+#comment3 p {
+    font-size: 20px;
+}
+
+#comment3 li {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#comment3 a:hover {
+    color: #563C3A !important;
+}
+
+::marker {
+    color: #E7AA7A;
+}
+
+.lr,
+.tl2 {
+    color: #fff !important;
+}
+
+.lr:hover {
+    border: 2px solid #EA6D49 !important;
+    color: #EA6D49 !important;
+    background-color: #fff !important;
+}
+
+.tl2:hover {
+    border: 2px solid #563C3A !important;
+    color: #563C3A !important;
+    background-color: #fff !important;
+}
+
+.page-link {
+    background-color: #E4DBBFFB !important;
+    font-size: large !important;
+}
+
+.active .page-link {
+    background-color: #EA6D49 !important;
+}
+
+.page-link:hover {
+    background-color: #563C3A !important;
+    color: #fff !important;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.stathead {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.stathead a {
+    font-size: 25px;
+}
+
+.ab button {
+    width: auto;
+    margin-right: auto;
+}
+
+.ab {
+    width: 10%;
+    padding-left: 8%;
+}
+
+.as {
+    color: #563C3A;
+    width: 80%;
+}
+
+.statinfo .card-body {
+    border: transparent;
+    font-size: 17px;
+    white-space: normal !important;
+}
+
+.statinfo strong {
+    margin-bottom: 10px;
+}
+
+.statref .card-body {
+    border: transparent;
+    color: black;
+    background-color: #fff4ea;
+}
+
+.card-body h2 {
+    font-size: 40px;
+}
+
+.icon {
+    transform: rotate(90deg);
+}
+
+.cross {
+    position: relative;
+    bottom: 4px;
+    left: 97%;
+    font-size: 20px;
+    width: 20px;
+}
+
+.card-media{
+    background-color: #fff5ff;
+    padding: 10px;
+    white-space: normal !important;
+}
+
+.card-media p{
+    color: #563C3A;
+}
+
+@media screen and (max-width:980px) {
+    .content {
+        padding-top: 120px;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content2 {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .colunn1 {
+        width: 100%;
+        margin: auto;
+    }
+    .colunn1b {
+        width: 100%;
+        margin: auto;
+    }
+    .title h1 {
+        font-size: 55px !important;
+        font-weight: 700;
+    }
+    .colunn2 {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colunn2b {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colunn3 {
+        width: 350px;
+        height: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text {
+        padding-top: 30px;
+        margin-top: 10px;
+        font-size: 17px;
+        border-top: 1px solid #D0C6B6;
+    }
+    #dat strong {
+        font-size: 40px;
+    }
+    #comment3 li {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .stathead a {
+        font-size: 20px;
+    }
+    .as {
+        width: 70%;
+    }
+    .ab {
+        width: 30%;
+        padding-top: 10px;
+        padding-left: 15%;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .stathead a {
+        font-size: 20px;
+    }
+    .as {
+        width: 70%;
+    }
+    .ab {
+        width: 30%;
+        padding-top: 10px;
+        padding-left: 10%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    #dat {
+        width: 25%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    #comment {
+        width: 100%;
+        padding-bottom: auto;
+        text-align: center;
+    }
+    #dat img {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .linkg2 i {
+        position: absolute;
+        right: 15px;
+        font-size: 25px;
+        top: 30px;
+        padding: 5px;
+        padding-left: 10px;
+        margin-left: 30px;
+        border-left: 1px solid white;
+    }
+
+    .linkg2 span{
+        padding-right: 70px;
+    } 
+}
+
+@media screen and (max-width:470px) {
+    .span-b {
+        display: flex;
+    }
+    .content {
+        padding-top: 50px;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .linkg i {
+        position: absolute;
+        right: 15px;
+        font-size: 25px;
+        top: 30px;
+        padding: 5px;
+        padding-left: 10px;
+        margin-left: 10px;
+        border-left: 1px solid white;
+    }
+
+    .linkg span{
+        padding-right: 50px;
+    } 
+}
+
+@media screen and (max-width:470px) {
+
+    .linkg2 i {
+        visibility: hidden;
+    }
+
+    .linkg span{
+        padding-right: 0px;
+    } 
+
+}

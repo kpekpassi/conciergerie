@@ -1,0 +1,530 @@
+
+
+.text-rouge{
+	color: #ff0000 !important;
+}
+
+.text-rose{
+	color: #E47662 !important;
+}
+
+.text-bleu{
+	color: #00205F !important;
+}
+
+
+
+.bg-rouge{
+	background-color: #ff0000 !important;
+}
+
+.bg-rose{
+	background-color: #E47662 !important;
+}
+
+.bg-bleu{
+	background-color: #00205F !important;
+}
+
+
+
+
+/*================= CSS DU CONTENU ========================*/
+
+.content{
+    width: 100%;
+    background-color: #F9F7F4;
+    padding-top: 220px;
+    /* z-index: -2; */
+
+}
+.container-decor{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+/*===== CSS DU titre =====*/
+.g-title{
+    height: 70px;
+}
+
+.g-title h1{
+	font-size: 65px;
+    font-weight: 500;
+}
+
+/*===== fin  =====*/
+
+
+
+/*======== CSS Des informations et de l'image  ==========*/
+
+/*===== CSS Des colonnes de text  =====*/
+
+.colon1{
+    width: 22%;
+    margin-right: auto;
+    z-index: 5;
+}
+
+.colon3{
+    width: 22%;
+    margin-left: auto;
+    z-index: 1;
+}
+
+
+
+
+/* CSS Des colonnes image de pourcentage */
+.bloc img{
+    width: 50px;
+    padding-bottom: 20px;
+}
+/* fin */
+
+.bloc .h1{
+	font-size: 70px;
+    line-height: 50px;
+    font-weight: 600;
+}
+.bloc .h2{
+	font-size: 70px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.bloc p{
+    margin-top: 20px;
+	font-size: 20px;
+}
+
+
+.bloc a{
+	font-size: 22px;
+    font-weight:600;
+    /* padding-bottom: 20px;
+    border-bottom: 3px solid; */
+}
+
+.g{
+    text-align: left;
+}
+
+.d{
+    text-align: right;
+}
+
+
+/* CSS Du cercle image */
+
+.colon2{
+    width: 50%;
+    margin-top: 150px;
+    margin-bottom: auto;
+    height: 1000px;
+}
+
+.imgb img{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 220px;
+    z-index: 1; 
+}
+
+
+
+/* fin du CSS Du cercle image */
+
+
+/* css de grand boutton du bas */
+@media screen and (max-width: 1427px) {
+    
+    .bloc img{
+        width: 40px;
+        padding-bottom: 0px;
+    }
+
+    .bloc .h1{
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    .bloc .h2{
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    
+    .bloc p{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    
+    .bloc a{
+        font-size: 22px;
+        font-weight:600;
+    }
+
+    .bloc{
+        margin-bottom: 30px;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .imgb img{
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: 350px;
+        z-index: 1; 
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+    /*===== CSS DU titre =====*/
+    .g-title{
+        height: 100px;
+    }
+    
+    .g-title h1{
+        font-size: 60px;
+        font-weight: 500;
+    }
+    
+    /*===== fin  =====*/
+    
+    
+    
+    /*======== CSS Des informations et de l'image  ==========*/
+    
+    /*===== CSS Des colonnes de text  =====*/
+    .colon1,.colon3{
+        width: 80%;
+        margin: auto;
+        margin-bottom: auto;
+    }
+    
+    .colon3{
+        margin-top: 600px;
+    }
+    
+    
+    .bloc{
+        margin-bottom: 50px;
+    }
+    
+    /* CSS Des colonnes image de pourcentage */
+    .bloc img{
+        width: 50px;
+        padding-bottom: 20px;
+    }
+    /* fin */
+    
+    .bloc .h1{
+        font-size: 90px;
+        font-weight: 600;
+        line-height: 70px;
+    }
+    .bloc .h2{
+        font-size: 90px;
+        font-weight: 600;
+        line-height: 70px;
+    }
+    
+    .bloc p{
+        font-size: 27px;
+        line-height: 30px;
+    }
+    
+    
+    .bloc a{
+        font-size: 30px;
+        font-weight:600;
+    }
+    
+    .g{
+        text-align: center;
+    }
+    
+    .d{
+        text-align: center;
+    }
+    
+    
+    /* CSS Du cercle image */
+    
+    .colon2{
+        /* visibility: hidden; */
+        width: 100%;
+        position: absolute;
+        /* margin-left: 25%; */
+        left: 0px;
+        z-index: 0;
+        top: 1600px;
+        height: 1000px;
+        background-image: url("../../images/databg.png");
+        background-size: 1000px;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-size: 250%; */
+    }
+    
+    .imgb img{
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .imgb2 img{
+        visibility: hidden;
+    }
+    
+    /* fin du CSS Du cercle image */
+
+}
+
+@media screen and (max-width: 857px) {
+    .colon2{
+        top: 1600px;
+    }
+    
+}
+
+
+@media screen and (max-width: 755px) {
+    .colon2{
+        top: 1900px;
+    }
+    
+}
+
+@media screen and (max-width: 652px) {
+    .colon1,.colon3{
+        width: 100%;
+        margin: auto;
+        margin-bottom: auto;
+    }
+    .colon2{
+        /* visibility: hidden; */
+        width: 100%;
+        position: absolute;
+        /* margin-left: 25%; */
+        left: 0px;
+        z-index: 0;
+        top: 1600px;
+        height: 1000px;
+        background-image: url("../../images/databg.png");
+        background-size: 700px;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-size: 250%; */
+    }
+    .colon3{
+        margin-top: 500px;
+    }
+    
+}
+
+
+@media screen and (max-width: 623px) {
+
+    .colon2{
+        top: 1800px;
+    }
+    
+}
+
+
+@media screen and (max-width: 558px) {
+    
+    .g-title h1{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    
+    /*===== fin  =====*/
+    
+    
+    
+    /*======== CSS Des informations et de l'image  ==========*/
+    
+    /*===== CSS Des colonnes de text  =====*/
+    .colon1,.colon3{
+        width: 90%;
+        margin: auto;
+        margin-bottom: auto;
+    }
+    
+    .colon3{
+        margin-top: 500px;
+    }
+    
+    
+    .bloc{
+        margin-bottom: 50px;
+    }
+    
+    /* CSS Des colonnes image de pourcentage */
+    .bloc img{
+        width: 40px;
+        padding-bottom: 10px;
+    }
+    /* fin */
+    
+    .bloc .h1{
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+    .bloc .h2{
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+    
+    .bloc p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    .bloc a{
+        font-size: 22px;
+        font-weight:600;
+    }
+    
+    
+    
+    /* CSS Du cercle image */
+    
+    .colon2{
+        /* visibility: hidden; */
+        width: 100%;
+        position: absolute;
+        /* margin-left: 25%; */
+        left: 0px;
+        z-index: 0;
+        top: 1450px;
+        height: 800px;
+        background-image: url("../../images/databg.png");
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-size: 250%; */
+    }
+    
+
+    
+    /* fin du CSS Du cercle image */
+    
+}
+
+@media screen and (max-width: 522px) {
+    .colon2{
+        /* visibility: hidden; */
+        width: 100%;
+        position: absolute;
+        /* margin-left: 25%; */
+        left: 0px;
+        z-index: 0;
+        top: 1550px;
+        height: 800px;
+        background-image: url("../../images/databg.png");
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-size: 250%; */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .colon2{
+        /* visibility: hidden; */
+        width: 100%;
+        position: absolute;
+        /* margin-left: 25%; */
+        left: 0px;
+        z-index: 0;
+        top: 1550px;
+        height: 800px;
+        background-image: url("../../images/databg.png");
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-size: 250%; */
+    }
+}
+
+
+@media screen and (max-width: 454px) {
+    .colon2{
+        /* visibility: hidden; */
+        width: 100%;
+        position: absolute;
+        /* margin-left: 25%; */
+        left: 0px;
+        z-index: 0;
+        top: 1680px;
+        height: 800px;
+        background-image: url("../../images/databg.png");
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-size: 250%; */
+    }
+}
+
+@media screen and (max-width: 429px) {
+    .colon2{
+        top: 1750px;
+        height: 800px;
+    }
+}
+
+
+@media screen and (max-width: 388px) {
+    .colon2{
+        /* visibility: hidden; */
+        width: 100%;
+        position: absolute;
+        /* margin-left: 25%; */
+        left: 0px;
+        z-index: 0;
+        top: 1800px;
+        height: 800px;
+        background-image: url("../../images/databg.png");
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-size: 250%; */
+    }
+}
+
+@media screen and (max-width: 324px) {
+    .colon2{
+        /* visibility: hidden; */
+        width: 100%;
+        position: absolute;
+        /* margin-left: 25%; */
+        left: 0px;
+        z-index: 0;
+        top: 1850px;
+        height: 800px;
+        background-image: url("../../images/databg.png");
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-size: 250%; */
+    }
+}

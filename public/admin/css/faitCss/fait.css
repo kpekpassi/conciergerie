@@ -1,0 +1,791 @@
+.text-rouge{
+	color: #ff0000 !important;
+}
+
+.text-rose{
+	color: #E47662 !important;
+}
+
+.text-bleu{
+	color: #00205F !important;
+}
+
+
+
+.bg-rouge{
+	background-color: #ff0000 !important;
+}
+
+.bg-rose{
+	background-color: #E47662 !important;
+}
+
+.bg-bleu{
+	background-color: #00205F !important;
+}
+
+/*================= CSS DU CONTENU ========================*/
+
+.content{
+    width: 100%;
+    background-color: #FBE0CB6B;
+    padding-top: 220px;
+
+}
+.p-content{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-row-gap: 2%;
+    grid-column-gap: 2%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    padding-bottom: 80px;
+}
+
+/*===== CSS Des titres =====*/
+
+.g-title h1{
+	font-size: 65px;
+    font-weight: 500;
+}
+
+.g-title .h1{
+	margin-top: -30px;
+    color: black;
+}
+
+.g-title .h2{
+	margin-top: -30px;
+    color: white;
+}
+
+.txt-top{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.txt-top2{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+/*===== fin  =====*/
+
+
+/*===== CSS Des bloc coloré =====*/
+
+.bloc{
+    padding: 40px;
+    border-radius: 20px;
+    /* position: relative; */
+}
+
+.cont-cross{
+    width: 100%;
+    height: 0px;
+    visibility: hidden;
+}
+
+.cross1{
+    width: 40px;
+    position: relative;
+    left: 95%;
+    cursor: pointer;
+}
+
+/* .cross2{
+    width: 40px;
+    position: relative;
+    left: 85%;
+    cursor: pointer;
+} */
+
+.bloc h1{
+    margin-top: -5px;
+    line-height: 60px;
+	font-size: 60px;
+    font-weight: 500;
+    color: #fff !important;
+    /* position: relative; */
+}
+
+p{
+    margin-bottom: 0px !important;
+}
+
+#p-cache{
+    visibility: hidden;
+    height: 0px;
+}
+
+.bloc .link{
+    font-size: 20px;
+    /* border-bottom: 3px solid;
+    padding-bottom: 20px; */
+    color: #fff !important;
+    margin-top: 15px;
+}
+
+.div-link{
+    height:100px;
+}
+
+.div-link .link{
+    position: absolute;
+    bottom: 70px;
+}
+
+.es{
+    cursor: pointer;
+}
+
+.ap{
+    visibility: hidden;
+}
+
+.buttons-bas-b1{
+    width: 100%;
+    height: 100px;
+}
+
+
+.buttons-bas-b2{
+    width: 100%;
+    height: 100px;
+}
+
+.button-bas{
+    height: fit-content;
+    margin-top: 30px;
+}
+
+.mg-3{
+    margin-top: 70px;
+}
+
+.buttons-bas i{
+    font-size: 20px;
+}
+
+.button-bas i{
+    font-size: 20px;
+}
+
+.button-blanc{
+    width: 300px;
+    height: 40px;
+    font-weight: 500;
+    background-color: white;
+    position: absolute;
+    bottom: 120px;
+    border-radius: 20px;
+    border: transparent;
+    margin: 10px;
+}
+
+.button-trans{
+    width: 300px;
+    height: 40px;
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 10px;
+}
+
+.button-trans:hover{
+    background-color: #FBE0CB6B;
+    border: 2px solid white;
+}
+
+.b1{
+    height: 100%;
+    width: 100%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.b2{
+    height:  100%;
+}
+
+.b3{
+    height:  100%;;
+}
+
+.b4{
+    height:  100%;;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.b5{
+    height:  100%;;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.b6{
+    height: 100%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.b7{
+    height:  100%;;
+}
+
+.b8{
+    height:  100%;;
+}
+
+.b9{
+    height:  100%;;
+}
+
+.b10{
+    height:  100%;;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.d-content{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.ds-content{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.enfant,.ado,.femme,.age,.lgbt,.homme,.refuge,.enceinte,.parent{
+    cursor: pointer;
+}
+
+
+/* button */
+@media screen and (max-width: 1474px) {
+
+    .b2 .button-trans{
+        width: 100%;
+    }
+
+    .b3 .button-trans{
+        width: 100%;
+    }
+
+    .b7 .button-trans{
+        width: 100%;
+    }
+
+    .b8 .button-trans{
+        width: 100%;
+    }
+
+    .b9 .button-trans{
+        width: 100%;
+    }
+}
+
+
+/* button */
+@media screen and (max-width: 1430px) {
+    .button-blanc{
+        width: 240px;
+        height: 40px;
+        font-weight: 500;
+        background-color: white;
+        border-radius: 20px;
+        border: transparent;
+        margin: 10px;
+    }
+    
+    .b1 .button-trans{
+        width: 240px;
+    }
+
+    .b2 .button-trans{
+        width: 240px;
+    }
+
+    .b3 .button-trans{
+        width: 240px;
+    }
+
+    .b4 .button-trans{
+        width: 240px;
+    }
+
+    .b5 .button-trans{
+        width: 240px;
+    }
+
+    .b6 .button-trans{
+        width: 240px;
+    }
+
+    .b7 .button-trans{
+        width: 240px;
+    }
+
+    .b8 .button-trans{
+        width: 240px;
+    }
+
+    .b9 .button-trans{
+        width: 240px;
+    }
+
+    .b10 .button-trans{
+        width: 240px;
+    }
+    
+}
+
+
+/* bloc */
+@media screen and (max-width: 1200px) {
+    
+    .p-content{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-row-gap: 40px;
+        grid-column-gap: 4%;
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        padding-bottom: 80px;
+    }
+
+    .buttons-bas-b1{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .buttons-bas-b2{
+        width: 100%;
+        height: 200px;
+    }
+
+    .button-blanc{
+        width: 240px;
+        height: 40px;
+        font-weight: 500;
+        bottom: 100px;
+        background-color: white;
+        border-radius: 20px;
+        border: transparent;
+        margin: 0px;
+    }
+
+    .b1{
+        height: 100%;
+        width: 100%;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    .b2{
+        height:  100%;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .b3{
+        height:  100%;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    .b4{
+        height:  100%;;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .b5{
+        height:  100%;;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    .b6{
+        height: 100%;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 6;
+    }
+    
+    .b7{
+        height:  100%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    
+    .b8{
+        height:  100%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    .b9{
+        height:  100%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    
+    .b10{
+        height:  100%;;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+
+    
+
+    .cont-cross{
+        width: 100%;
+        height: 0px;
+        visibility: hidden;
+    }
+    
+    .cross1{
+        width: 20px;
+        position: relative;
+        left: 98%;
+        cursor: pointer;
+    }
+    
+}
+
+
+/* bloc */
+@media screen and (max-width: 800px) {
+    .p-content{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 80px;
+        
+    }
+
+    .bloc{
+        padding: 40px;
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .buttons-bas i{
+        font-size: 20px;
+    }
+    
+    .button-bas i{
+        font-size: 20px;
+    }
+
+    .buttons-bas {
+        font-size: 15px;
+        height: 50px;
+        margin-top: 80px;
+    }
+
+    button{
+        font-size: 15px !important;
+    }
+
+    .button-blanc{
+        width: 240px;
+        height: 40px;
+        font-weight: 500;
+        bottom: 50px;
+        background-color: white;
+        border-radius: 20px;
+        border: transparent;
+        margin: 0px;
+    }
+    
+    .button-trans{
+        width: 240px !important;
+        height: 40px;
+        font-weight: 500;
+        background-color: transparent;
+        border-radius: 20px;
+        border: 2px solid white;
+        margin: 0px;
+    }
+
+    .cont-cross{
+        width: 100%;
+        height: 0px;
+        visibility: hidden;
+        position: relative;
+        bottom: 20px;
+    }
+    
+    .cross1{
+        width: 20px;
+        position: relative;
+        left: 98%;
+        cursor: pointer;
+    }
+    
+    .b1{
+        height: auto;
+    
+    }
+    
+    .b2{
+        height: auto;
+    }
+    
+    .b3{
+        height: auto;
+    }
+    
+    .b4{
+        height: auto;
+    }
+    
+    .b5{
+        height: auto;
+    }
+    
+    .b6{
+        height: auto;
+    }
+
+    .b7{
+        height: auto;
+    }
+    
+    .b8{
+        height: auto;
+    }
+    
+    .b9{
+        height: auto;
+    }
+    
+    .b10{
+        height: auto;
+    }
+}
+
+
+/* bloc */
+@media screen and (max-width: 470px) {
+
+    .p-content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 80px;
+        
+    }
+    .cont-cross{
+        width: 100%;
+        height: 0px;
+        visibility: hidden;
+        position: relative;
+        bottom: 20px;
+    }
+    
+    .cross1{
+        width: 30px;
+        position: relative;
+        left: 98%;
+        cursor: pointer;
+    }
+
+    .b1{
+        height: auto;
+    
+    }
+    
+    .b2{
+        height: auto;
+    }
+    
+    .b3{
+        height: auto;
+    }
+    
+    .b4{
+        height: auto;
+    }
+    
+    .b5{
+        height: auto;
+    }
+    
+    .b6{
+        height: auto;
+    }
+
+    .b7{
+        height: auto;
+    }
+    
+    .b8{
+        height: auto;
+    }
+    
+    .b9{
+        height: auto;
+    }
+    
+    .b10{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .button-blanc{
+        width: 240px;
+        height: 40px;
+        font-weight: 500;
+        background-color: white;
+        border-radius: 20px;
+        border: transparent;
+        margin-bottom: 10px;
+    }
+    .button-trans{
+        width: 100%;
+        height: 40px;
+        font-weight: 500;
+        background-color: transparent;
+        border-radius: 20px;
+        border: 2px solid white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+/* ===================Image bloc Css============================= */
+.img-bloc{
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 98%;
+    height: 430px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.img-bloc img{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   transform: scale(1.1);
+}
+.img-bloc .rideau{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 4;
+    background-color: #4e230281;
+ }
+.img-bloc h1{
+
+    position: absolute;
+    bottom: .5rem;
+    z-index: 10;
+    color: #fff !important;
+    margin-left: .7rem;
+    font-size: 4rem;
+    font-weight: 500!important;
+    line-height: 3.5rem;
+ }
+ @media(max-width : 1500px){
+    .img-bloc h1{
+        font-size: 3.5rem;
+        line-height: 3rem;
+    }
+ }
+ @media(max-width : 1270px){
+    .img-bloc h1{
+        font-size: 3rem;
+        line-height: 2.5rem;
+        bottom: .5rem;
+    }
+ }
+ @media(max-width : 1004px){
+    .img-bloc h1{
+        font-size: 2.7rem;
+        line-height: 2.5rem;
+        bottom: .3rem;
+    }
+ }
+ @media(max-width : 991px){
+    .img-bloc h1{
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+ }
+ @media(max-width : 880px){
+    .img-bloc h1{
+        font-size: 3.5rem;
+        line-height: 3rem;
+    }
+ }
+  @media(max-width : 806px){
+    .img-bloc h1{
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+ }
+ @media(max-width : 767px){
+    .img-bloc h1{
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+ }
+ @media(max-width : 500px){
+    .img-bloc h1{
+        font-size: 3.5rem;
+        line-height: 3rem;
+    }
+ }
+ @media(max-width : 450px){
+    .img-bloc h1{
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+ }
+
+ /* ========================================== */
+/*              Line                          */
+/* ========================================== */
+.line1{
+    position: absolute;
+    margin-top: 7rem;
+    z-index:0
+}

@@ -1,0 +1,2229 @@
+.text-rouge{
+	color: #ff0000 !important;
+}
+
+.text-rose{
+	color: #E47662 !important;
+}
+
+.text-bleu{
+	color: #00205F !important;
+}
+
+.text-vert-sombre{
+    color: #01A489;
+}
+
+.text-vert-claire{
+    color: #5FB131;
+}
+
+.bg-rouge{
+	background-color: #ff0000 !important;
+}
+
+.bg-rose{
+	background-color: #E47662 !important;
+}
+
+.bg-bleu{
+	background-color: #00205F !important;
+}
+
+.bg-vert-sombre{
+    background-color: #01A489;
+}
+
+.bg-vert-claire{
+    background-color: #5FB131;
+}
+
+/*================= CSS DU CONTENU ========================*/
+
+.content{
+    width: 100%;
+    background-color: #F9F7F4;
+    padding-top: 150px;
+}
+
+/*===== CSS Des titres =====*/
+
+.g-title h1{
+	font-size: 65px;
+    line-height: 70px;
+    font-weight: 500;
+}
+
+.g-title .h1{
+	margin-top: -30px;
+    color: black;
+}
+
+.txt-top{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* fin */
+
+
+/* les back-img */
+#hair{
+    background-image: url('../../images/hair.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.prog{
+    width: 100%;
+    height: max-content;
+    max-height: max-content;
+    margin-top: 0px;
+}
+
+.com1{
+    width: 100%;
+    height: max-content;
+    background-color: rgba(214, 164, 124, 0.727);
+    padding: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white !important;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.com1 h1{
+    line-height: 100px;
+    font-size: 100px;
+    color: white !important;
+}
+
+.com1 h2{
+    line-height: 60px;
+    font-size: 60px;
+    color: white !important;
+}
+
+
+.discours{
+    width: 90%;
+    margin: auto;
+}
+
+
+#doctor{
+    background-image: url('../../images/doctor.jpg');
+    background-size: 110%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.prog2{
+    width: 100%;
+    height: max-content;
+    max-height: max-content;
+    margin-top: 0px;
+}
+
+.com2{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(228, 118, 98, 0.6);
+    padding: 100px;
+    padding-top: 60px;
+    color: white !important;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.com2 h1{
+    line-height: 100px;
+    font-size: 100px;
+    color: white !important;
+}
+
+
+#festival{
+    background-image: url('../../images/festival.jpg');
+    background-size: 110%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.prog3{
+    width: 100%;
+    height: max-content;
+    max-height: max-content;
+    margin-top: 0px;
+}
+
+.com3{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(0, 32, 95, 0.6);
+    padding: 90px;
+    padding-bottom: 90px;
+    color: white !important;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.com3 h1{
+    line-height: 100px;
+    font-size: 100px;
+    color: white !important;
+}
+
+
+.com3 h2{
+    line-height: 60px;
+    font-size: 60px;
+    color: white !important;
+}
+/* fin */
+
+.bg{
+    background-color: white;
+    padding-top: 100px;
+    width: 100%;
+    position: relative;
+}
+
+.content2{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+/* les pourcentages */
+.pourcs{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pourc{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.cercle{
+    width: 350px;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+svg{
+    width: 350px;
+    border-radius: 50%;
+}
+
+.cercle-text{
+    position: absolute;
+    height: 0;
+    width: 180px;
+    text-align: center;
+    top: 95px;
+    left: 85px;
+}
+
+.cercle-text h2{
+    font-size: 80px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.cercle-text span{
+    font-size: 12px;
+    line-height: 10px;
+}
+/* fin */
+
+
+/* livre a telecharger */
+.doc{
+    margin-top: 50px;
+    margin: auto;
+    width: 600px;
+    height: 700px;
+}
+
+
+.livre{
+    width: 370px;
+    height: 500px;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: -6px 2px 5px #685444;
+    color: rgb(243, 243, 222);
+    text-align: center;
+    background: rgb(200,155,118);
+    background: linear-gradient(-90deg, rgba(200,155,118,1) 0%, rgba(200,155,118,1) 95%, rgba(133,107,85,1) 100%);
+    border-left: 5px solid #856b55;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.livre .span{
+    margin-top: 100px;
+}
+
+.livre .strong{
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.livre .img{
+    width: 120px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.livre h1{
+    color: white;
+    font-size: 60px;
+    line-height: 55px;
+    margin-top: 0px;
+}
+
+.dw-doc{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.dw-doc button{
+    background-color: transparent;
+    border: 2px solid #E7AA7A;
+    color: #E7AA7A;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.dw-doc button:hover{
+    background-color: #E7AA7A;
+    border: 2px solid #E7AA7A;
+    color: white;
+}
+
+
+/* fin */
+
+
+/* diaporama */
+#diapo1{
+    width: 100%;
+}
+
+
+.tem-title{
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    z-index: 8;
+    position: relative;
+}
+.tem-title h1{
+    line-height: 50px;
+    font-weight: 400;    
+}
+
+.carousel-caption{
+    margin-bottom: 100px;
+}
+
+/* .phot-prof{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.phot-prof img{
+    border-radius: 50%;
+} */
+
+#diapo1 h1{
+    font-size: 70px;
+    line-height: 60px;
+}
+
+#diapo1 strong{
+    font-size: 23px !important;
+    /* line-height: 13px; */
+    font-family: 'Saira Extra Condensed', sans-serif !important;
+}
+
+
+#diapo1 span{
+    font-size: 20px !important;
+    line-height: 13px;
+    font-weight: 500 !important;
+}
+
+#diapo1 p{
+    width: 800px !important;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    /* line-height: 25px; */
+}
+
+#diapo1 .diapo-ind{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    border: 2px solid #E7AA7A;
+    background-color: #E7AA7A;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#diapo1 .diapo-ind2{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    border: 2px solid #E47662;
+    background-color: #E47662;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#diapo1 .diapo-ind3{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    border: 2px solid #00205F;
+    background-color: #00205F;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* fin */
+
+
+
+/* impact des projets */
+.impact .h1{
+    font-size: 70px !important;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.impact span{
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 90px;
+}
+
+.impact p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.i-cont{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.impact .i-col{
+    width: 400px;
+    height: fit-content;
+    text-align: center;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.impact{
+    padding-bottom: 80px;
+    margin-top: 100px;
+}
+/* fin */
+
+/* les blocs de questions */
+.questions1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    /* z-index: 3; */
+}
+
+.questions2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.questions3{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.bloc{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 50px;
+    padding-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 70px;
+    z-index: 8;
+    position: relative;
+}
+
+.bloc h1{
+    color: white !important;
+    font-size: 60px;
+    line-height: 50px;
+    font-weight: 400;    
+}
+
+.bloc a{
+    color: white !important;
+    font-size: 20px;
+    /* padding-bottom: 20px; */
+    /* border-bottom: 2px solid; */
+}
+.bloc-a{
+    width: 80%;
+    height: auto;
+    /* border-radius: 20px; */
+    margin: auto;
+    /* margin-bottom: 40px; */
+    text-align: center;
+    /* padding: 50px; */
+    padding-top: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    z-index: 8;
+    position: relative;
+}
+.bloc-a h1{
+    color: white !important;
+    font-size: 60px;
+    line-height: 50px;
+    font-weight: 400;    
+}
+/* fin */
+
+
+/* les bouttons centré */
+.boutton-center{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.boutton-center button{
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+}
+
+.boutton-center .trans{
+    background-color: white;
+    color: #E7AA7A;
+    border: 2px solid #E7AA7A;
+}
+
+.boutton-center .trans:hover{
+    background-color: #E7AA7A;
+    color: white;
+    border: 2px solid #E7AA7A;
+}
+
+
+.boutton-center .plein{
+    background-color: #E7AA7A;
+    color: white;
+    border: 2px solid #E7AA7A;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.boutton-center .plein:hover{
+    background-color: transparent;
+    color: #E7AA7A;
+    border: 2px solid #E7AA7A;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+.boutton-center .trans2{
+    background-color: transparent;
+    color: #EA6D49;
+    border: 2px solid #EA6D49;
+    margin: 10px;
+}
+
+.boutton-center .trans2:hover{
+    background-color: #EA6D49;
+    color: white;
+    border: 2px solid #EA6D49;
+    margin: 10px;
+}
+
+.boutton-center .plein2{
+    background-color: #EA6D49;
+    color: white;
+    border: 2px solid #EA6D49;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+}
+
+.boutton-center .plein2:hover{
+    background-color: transparent;
+    color: #EA6D49;
+    border: 2px solid #EA6D49;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+}
+
+.boutton-center .plein3{
+    background-color: #00205F;
+    color: white;
+    border: 2px solid #00205F;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+}
+
+
+.boutton-center .plein3:hover{
+    background-color: transparent;
+    color: #00205F;
+    border: 2px solid #00205F;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+}
+
+.boutton-center .plein4{
+    background-color: #E47662;
+    color: white;
+    border: 2px solid #E47662;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+}
+
+
+.boutton-center .plein4:hover{
+    background-color: transparent;
+    color: #E47662;
+    border: 2px solid #E47662;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+}
+
+.plein5{
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    background-color: #EA6D49;
+    color: white;
+    border: 2px solid #EA6D49;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 10px;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+/* fin */
+
+
+/* le decompte de jours */
+.decompte{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    z-index: 2;
+}
+
+.decompte h2{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.decompte span{
+    font-size: 150px;
+    font-family: 'saira';
+    font-weight: 500;
+    line-height: 150px;
+}
+
+.time{
+    width: min-content;
+    display: flex;
+    margin: auto;
+}
+
+.tm{
+    width: auto;
+    padding: 5px;
+}
+
+.d{
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#news-let{
+    position: relative;
+    top: 50px;
+    height: 0px;
+}
+
+#Bluemind_Festival{
+    position: relative;
+    height: 0px;
+    width: 50px;
+    top: -750px;
+}
+
+#Bluemind_Scholarship{
+    position: relative;
+    height: 0px;
+    width: 50px;
+    top: -750px;
+}
+
+#Hair_Initiative{
+    position: relative;
+    height: 0px;
+    width: 50px;
+    top: -750px;
+}
+
+/* fin */
+
+/* .l1{
+    position: absolute;
+    top: 3800px;
+    left: 0;
+} */
+
+
+/* responsive des encre */
+
+@media (max-width:900px) {
+    #news-let{
+        position: relative;
+        top: 550px;
+    }
+}
+
+@media (max-width:500px) {
+    #news-let{
+        position: relative;
+        top: 750px;
+    }
+
+    /* #Bluemind_Festival{
+        position: relative;
+        height: 0px;
+        width: 50px;
+        top: -850px;
+    }
+
+    #Bluemind_Scholarship{
+        position: relative;
+        height: 0px;
+        width: 50px;
+        top: -850px;
+    }
+    
+    #Hair_Initiative{
+        position: relative;
+        height: 0px;
+        width: 50px;
+        top: -850px;
+    } */
+}
+
+@media (max-width:360px) {
+    #news-let{
+        position: relative;
+        top: 750px;
+    }
+
+    /* #Bluemind_Festival{
+        position: relative;
+        height: 0px;
+        width: 50px;
+        top: -1050px;
+    }
+
+    #Bluemind_Scholarship{
+        position: relative;
+        height: 0px;
+        width: 50px;
+        top: -950px;
+    }
+    
+    #Hair_Initiative{
+        position: relative;
+        height: 0px;
+        width: 50px;
+        top: -850px;
+    } */
+}
+
+@media (max-width:320px) {
+    #news-let{
+        position: relative;
+        top: 750px;
+    }
+
+    /* #Bluemind_Festival{
+        position: relative;
+        height: 0px;
+        width: 50px;
+        top: -1150px;
+    }
+
+    #Bluemind_Scholarship{
+        position: relative;
+        height: 0px;
+        width: 50px;
+        top: -1100px;
+    }
+    
+    #Hair_Initiative{
+        position: relative;
+        height: 0px;
+        width: 50px;
+        top: -950px;
+    } */
+}
+
+/* fin du responsive des encre */
+
+/* grand titre de la page */
+@media screen and (max-width:720px){
+    .content{
+        width: 100%;
+        background-color: #F9F7F4;
+        padding-top: 170px;
+    }
+
+    /*===== CSS Des titres =====*/
+
+    .g-title h1{
+        font-size: 65px;
+        font-weight: 500;
+    }
+
+    .g-title .h1{
+        margin-top: -30px;
+        color: black;
+    }
+
+    .txt-top{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+    }
+}
+
+/* boutton hairdresser */
+@media screen and (max-width:585px) {
+    
+    .boutton-center .hg{
+        background-color: transparent;
+        color: #E7AA7A;
+        border: 2px solid #E7AA7A;
+        /* padding-left: 5px;
+        padding-right: 5px; */
+        border-radius: 60px;
+    }
+}
+
+
+/* boutton hairdresser */
+@media screen and (max-width:369px) {
+    
+    .boutton-center .hg{
+        background-color: transparent;
+        color: #E7AA7A;
+        border: 2px solid #E7AA7A;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 60px;
+    }
+}
+
+
+/* decompte */
+@media screen and (max-width:700px) {
+    .decompte span{
+        font-size: 100px;
+        font-family: 'saira';
+        font-weight: 500;
+        line-height: 80px;
+    }
+    
+    .time{
+        width: min-content;
+        display: flex;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+
+
+/* decompte */
+@media screen and (max-width:497px) {
+    .decompte{
+        text-align: center;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .decompte h2{
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+    
+    .decompte span{
+        font-size: 80px;
+        font-family: 'saira';
+        font-weight: 500;
+        line-height: 80px;
+    }
+    
+    .time{
+        width: min-content;
+        display: flex;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+
+
+/* decompte */
+@media screen and (max-width:440px) {
+    .decompte{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .decompte h2{
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+    
+    .decompte span{
+        font-size: 48px;
+        font-family: 'saira';
+        font-weight: 700;
+        line-height: 40px;
+    }
+    
+    .time{
+        width: min-content;
+        display: flex;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+
+
+/* diapo */
+@media screen and (min-width:1800px) {
+    .carousel-caption{
+        margin-bottom: 140px;
+    }
+    .phot-prof{
+        /* background-color: #EA6D49; */
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    
+
+    #diapo1 strong{
+        font-size: 35px !important;
+        /* line-height: 20px; */
+        font-family: 'Saira Extra Condensed', sans-serif !important;
+    }
+    
+    
+    #diapo1 span{
+        font-size: 25px !important;
+        line-height: 20px;
+        font-weight: 500 !important;
+    }
+    
+    #diapo1 p{
+        width: 900px !important;
+        font-size: 23px;
+        margin: auto;
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+}
+
+/* blocs-questions */
+@media screen and (min-width:1600px) {
+
+    .bloc{
+        width: 30%;
+        height: auto;
+        border-radius: 20px;
+        margin: auto;
+        margin-bottom: 40px;
+        text-align: center;
+        padding: 50px;
+        padding-top: 30px;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 70px;
+    }
+    
+}
+
+
+/* diapo */
+@media screen and (max-width:1250px) {
+
+    .d1,.d2,.d3{
+        margin-top: 50px;
+    }
+
+    .tem-title{
+        background-color: white;
+    }
+
+    /* diaporama */
+    #diapo1{
+        width: 100%;
+        height: 500px;
+    }
+
+    #diapo1 .d-img{
+        position: relative;
+        visibility: hidden;
+    }
+
+    .carousel-caption{
+        position: absolute;
+        top: -10px;
+        margin-bottom: 0;
+    }
+
+    /* #diapo1 h1{
+        font-size: 60px;
+    } */
+
+    #diapo1 p{
+        width: 100% !important;
+        font-size: 20px;
+        margin: auto;
+    }
+    /* fin */
+    
+}
+
+
+/* diapo */
+@media screen and (max-width:1200px) {
+
+    /* diaporama */
+    #diapo1{
+        width: 100%;
+        height: max-content;
+    }
+
+    #diapo1 .d-img{
+        position: relative;
+        visibility: hidden;
+        height: 400px;
+    }
+    /* fin */
+    
+}
+
+
+/* diapo */
+@media screen and (max-width:1055px) {
+
+    /* diaporama */
+
+    #diapo1 .d-img{
+        position: relative;
+        visibility: hidden;
+        height: 450px;
+    }
+    /* fin */ 
+}
+
+
+/* diapo */
+@media screen and (max-width:727px) {
+
+    /* diaporama */
+
+    #diapo1 .d-img{
+        position: relative;
+        visibility: hidden;
+        height: 350px;
+    }
+
+    #diapo1 h1{
+        font-size: 60px;
+        line-height: 50px;
+    }
+
+    #diapo1 p{
+        width: 100% !important;
+        font-size: 15px;
+        line-height: 17px;
+        margin: auto;
+    }
+    /* fin */ 
+}
+
+/* diapo */
+@media screen and (max-width:524px) {
+
+    /* diaporama */
+
+    #diapo1 .d-img{
+        position: relative;
+        visibility: hidden;
+        height: 400px;
+    }
+
+    #diapo1 p{
+        line-height: 20px;
+    }
+    /* fin */ 
+}
+
+
+/* diapo */
+@media screen and (max-width:420px) {
+
+    /* diaporama */
+
+    #diapo1 .d-img{
+        position: relative;
+        visibility: hidden;
+        height: 450px;
+    }
+    /* fin */ 
+}
+
+
+/* back-image */
+@media screen and (max-width:1100px) {
+    /* les back-img */
+    #hair{
+        background-image: url('../../images/hair.jpg');
+        background-size: cover;
+        background-attachment:local;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .prog{
+        width: 100%;
+        height: max-content;
+        max-height: max-content;
+        margin-top: 50px;
+    }
+
+    .com1{
+        width: 100%;
+        height: max-content;
+        background-color: rgba(233, 160, 103, 0.616);
+        padding: 30px;
+        color: white !important;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        
+    }
+
+    .com1 h1{
+        line-height: 70px;
+        font-size: 70px;
+        color: white !important;
+    }
+
+    .com1 h2{
+        line-height: 50px;
+        font-size: 50px;
+        color: white !important;
+    }
+
+
+
+
+    #doctor{
+        background-image: url('../../images/doctor.jpg');
+        background-size: cover;
+        background-attachment:local;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .prog2{
+        width: 100%;
+        height: max-content;
+        max-height: max-content;
+        margin-top: 50px;
+    }
+
+    .com2{
+        width: 100%;
+        height: max-content;
+        background-color: rgb(228, 118, 98, 0.6);
+        padding: 20px;
+        padding-bottom: 30px;
+        color: white !important;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        
+    }
+
+    .com2 h1{
+        padding-top: 0px;
+        line-height: 70px;
+        font-size: 70px;
+        color: white !important;
+    }
+
+
+    #festival{
+        background-image: url('../../images/festival.jpg');
+        background-size: cover;
+        background-attachment:local;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .prog3{
+        width: 100%;
+        height: max-content;
+        max-height: max-content;
+        margin-top: 50px;
+    }
+
+    .com3{
+        width: 100%;
+        height: max-content;
+        background-color: rgb(0, 32, 95, 0.6);
+        padding: 30px;
+        color: white !important;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        
+    }
+
+    .com3 h1{
+        line-height: 70px;
+        font-size: 70px;
+        color: white !important;
+    }
+
+
+    .com3 h2{
+        line-height: 50px;
+        font-size: 50px;
+        color: white !important;
+    }
+}
+
+
+/* les back-image */
+@media screen and (max-width:610px) {
+
+    /* les back-img */
+    #hair{
+        background-image: url('../../images/hair.jpg');
+        background-size:cover;
+        background-attachment:local;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .prog{
+        width: 100%;
+        height: max-content;
+        max-height: max-content;
+        margin-top: 50px;
+    }
+
+    .com1{
+        width: 100%;
+        height: max-content;
+        background-color: rgba(233, 160, 103, 0.616);
+        padding: 20px;
+        color: white !important;
+        font-size: 17px;
+        font-weight: 600;
+        text-align: center;
+        
+    }
+
+    .com1 h1{
+        line-height: 60px;
+        font-size: 60px;
+        color: white !important;
+    }
+
+    .com1 h2{
+        line-height: 45px;
+        font-size: 45px;
+        color: white !important;
+    }
+
+
+
+
+    #doctor{
+        background-image: url('../../images/doctor.jpg');
+        background-size: cover;
+        background-attachment:local;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .prog2{
+        width: 100%;
+        height: max-content;
+        max-height: max-content;
+        margin-top: 50px;
+    }
+
+    .com2{
+        width: 100%;
+        height: max-content;
+        background-color: rgb(228, 118, 98, 0.6);
+        padding: 20px;
+        padding-bottom: 30px;
+        color: white !important;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        
+    }
+
+    .com2 h1{
+        padding-top: 0px;
+        line-height: 60px;
+        font-size: 60px;
+        color: white !important;
+    }
+
+
+    #festival{
+        background-image: url('../../images/festival.jpg');
+        background-size: cover;
+        background-attachment:local;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .prog3{
+        width: 100%;
+        height: max-content;
+        max-height: max-content;
+        margin-top: 50px;
+    }
+
+    .com3{
+        width: 100%;
+        height: max-content;
+        background-color: rgb(0, 32, 95, 0.6);
+        padding: 20px;
+        color: white !important;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        
+    }
+
+    .com3 h1{
+        line-height: 60px;
+        font-size: 60px;
+        color: white !important;
+    }
+
+
+    .com3 h2{
+        line-height: 45px;
+        font-size: 45px;
+        color: white !important;
+    }
+}
+
+
+/* les pourcentages */
+@media screen and (max-width:1364px) {
+    .doc{
+        margin-top: 50px;
+        margin: auto;
+        width: 450px;
+        height: 650px;
+    }
+    
+    .pourcs{
+        width: 50%;
+        margin-bottom: auto;
+        margin-top: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .pourc{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .cercle{
+        width: 250px;
+        border-radius: 50%;
+        position: relative;
+        margin: auto;
+    }
+    
+    svg{
+        width: 250px;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .cercle-text{
+        position: absolute;
+        height: 0;
+        width: 120px;
+        text-align: center;
+        top: 70px;
+        left: 60px;
+        line-height: 10px;
+    }
+    
+    .cercle-text h2{
+        font-size: 70px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+    
+    .cercle-text span{
+        font-size: 12px;
+    }
+}
+
+
+/* les pourcentages */
+@media screen and (max-width:1112px) {
+    .doc{
+        margin-top: 50px;
+        margin: auto;
+        width: 320px;
+        height: 500px;
+    }
+
+    .livre{
+        width: 300px;
+        height: 405px;
+        margin: auto;
+        margin-top: 30px;
+        box-shadow: -6px 2px 5px rgb(0, 0, 0,0.7);
+        color: rgb(243, 243, 222);
+        text-align: center;
+        background: rgb(200,155,118);
+        background: linear-gradient(-90deg, rgba(200,155,118,1) 0%, rgba(200,155,118,1) 88%, rgba(133,107,85,1) 100%);
+        border-left: 5px solid #6a5540;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+
+    .dw-doc{
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .livre .span{
+        margin-top: 60px;
+    }
+    
+    .livre .strong{
+        padding-top: 60px;
+        font-size: 20px;
+    }
+    
+    .livre .img{
+        width: 100px;
+        margin: auto;
+        padding-top: 40px;
+    }
+    
+    .livre h1{
+        color: white;
+        font-size: 50px;
+        line-height: 45px;
+        margin-top: 0px;
+    }
+    
+    .dw-doc button{
+        background-color: transparent;
+        border: 2px solid #E7AA7A;
+        width: 100%;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .pourcs{
+        width: 60%;
+        margin-bottom: auto;
+        margin-top: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .pourc{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .cercle{
+        width: 220px;
+        border-radius: 50%;
+        position: relative;
+        margin: auto;
+    }
+    
+    svg{
+        width: 220px;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .cercle-text{
+        position: absolute;
+        height: 0;
+        width: 120px;
+        text-align: center;
+        top: 55px;
+        left: 50px;
+        line-height: 5px;
+    }
+    
+    .cercle-text h2{
+        font-size: 60px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+    
+    .cercle-text span{
+        font-size: 12px;
+    }
+}
+
+/* les pourcentages */
+@media screen and (max-width:889px) {
+    .doc{
+        margin-top: 50px;
+        margin: auto;
+        width: 600px;
+        height: 700px;
+    }
+    
+    
+    .livre{
+        width: 370px;
+        height: 500px;
+        margin: auto;
+        margin-top: 60px;
+        box-shadow: -6px 2px 5px #685444;
+        color: rgb(243, 243, 222);
+        text-align: center;
+        background: rgb(200,155,118);
+        background: linear-gradient(-90deg, rgba(200,155,118,1) 0%, rgba(200,155,118,1) 95%, rgba(133,107,85,1) 100%);
+        border-left: 5px solid #856b55;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+    
+    .livre .span{
+        margin-top: 100px;
+    }
+    
+    .livre .strong{
+        padding-top: 80px;
+        font-size: 20px;
+    }
+    
+    .livre .img{
+        width: 120px;
+        margin: auto;
+        padding-top: 40px;
+    }
+    
+    .livre h1{
+        color: white;
+        font-size: 60px;
+        line-height: 55px;
+        margin-top: 0px;
+    }
+    
+    .dw-doc{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .dw-doc button{
+        background-color: transparent;
+        border: 2px solid #E7AA7A;
+        color: #E7AA7A;
+        width: 100%;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    
+    .pourcs{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .pourc{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .cercle{
+        width: 350px;
+        border-radius: 50%;
+        position: relative;
+        margin: auto;
+    }
+    
+    svg{
+        width: 350px;
+        border-radius: 50%;
+        margin: auto;
+    } 
+
+    .cercle-text{
+        position: absolute;
+        height: 0;
+        width: 180px;
+        text-align: center;
+        top: 95px;
+        left: 85px;
+        line-height: 22px;
+    }
+    
+    .cercle-text h2{
+        font-size: 80px;
+        line-height: 40px;
+        font-weight: 500;
+    }
+    
+    .cercle-text span{
+        font-size: 12px;
+    }
+}
+
+
+/* les pourcentages */
+@media screen and (max-width:778px) {
+    .doc{
+        margin-top: 50px;
+        margin: auto;
+        width: 600px;
+        height: 700px;
+    }
+    
+    
+    .livre{
+        width: 370px;
+        height: 500px;
+        margin: auto;
+        margin-top: 60px;
+        box-shadow: -6px 2px 5px #685444;
+        color: rgb(243, 243, 222);
+        text-align: center;
+        background: rgb(200,155,118);
+        background: linear-gradient(-90deg, rgba(200,155,118,1) 0%, rgba(200,155,118,1) 95%, rgba(133,107,85,1) 100%);
+        border-left: 5px solid #856b55;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+    
+    .livre .span{
+        margin-top: 100px;
+    }
+    
+    .livre .strong{
+        padding-top: 80px;
+        font-size: 20px;
+    }
+    
+    .livre .img{
+        width: 120px;
+        margin: auto;
+        padding-top: 40px;
+    }
+    
+    .livre h1{
+        color: white;
+        font-size: 60px;
+        line-height: 55px;
+        margin-top: 0px;
+    }
+    
+    .dw-doc{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .dw-doc button{
+        background-color: transparent;
+        border: 2px solid #E7AA7A;
+        color: #E7AA7A;
+        width: 100%;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .pourcs{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .pourc{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .cercle{
+        width: 320px;
+        border-radius: 50%;
+        position: relative;
+        margin: auto;
+    }
+    
+    svg{
+        width: 320px;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .cercle-text{
+        position: absolute;
+        height: 0;
+        width: 180px;
+        text-align: center;
+        top: 80px;
+        left: 70px;
+    }
+    
+    .cercle-text h2{
+        font-size: 80px;
+        line-height: 40px;
+        font-weight: 500;
+    }
+    
+    .cercle-text span{
+        font-size: 12px;
+    }
+}
+
+
+/* les pourcentages */
+@media screen and (max-width:712px) {
+    .doc{
+        margin-top: 50px;
+        margin: auto;
+        width: 600px;
+        height: 700px;
+    }
+    
+    
+    .livre{
+        width: 370px;
+        height: 500px;
+        margin: auto;
+        margin-top: 60px;
+        box-shadow: -6px 2px 5px #685444;
+        color: rgb(243, 243, 222);
+        text-align: center;
+        background: rgb(200,155,118);
+        background: linear-gradient(-90deg, rgba(200,155,118,1) 0%, rgba(200,155,118,1) 95%, rgba(133,107,85,1) 100%);
+        border-left: 5px solid #856b55;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+    
+    .livre .span{
+        margin-top: 100px;
+    }
+    
+    .livre .strong{
+        padding-top: 80px;
+        font-size: 20px;
+    }
+    
+    .livre .img{
+        width: 120px;
+        margin: auto;
+        padding-top: 40px;
+    }
+    
+    .livre h1{
+        color: white;
+        font-size: 60px;
+        line-height: 55px;
+        margin-top: 0px;
+    }
+    
+    .dw-doc{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .dw-doc button{
+        background-color: transparent;
+        border: 2px solid #E7AA7A;
+        color: #E7AA7A;
+        width: 100%;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .pourcs{
+        width: 100%;
+        margin-bottom: auto;
+        margin-top: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .pourc{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .cercle{
+        width: 220px;
+        border-radius: 50%;
+        position: relative;
+        margin: auto;
+    }
+    
+    svg{
+        width: 220px;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .cercle-text{
+        position: absolute;
+        height: 0;
+        width: 120px;
+        text-align: center;
+        top: 55px;
+        left: 50px;
+        line-height: 12px;
+    }
+    
+    .cercle-text h2{
+        font-size: 60px;
+        line-height: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    
+    .cercle-text span{
+        font-size: 10px;
+    }
+}
+
+
+/* les pourcentages */
+@media screen and (max-width:488px) {
+    .pourcs{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .pourc{
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
+    
+    .cercle{
+        width: 350px;
+        margin: auto;
+        border-radius: 50%;
+        position: relative;
+    }
+    
+    svg{
+        width: 350px;
+        border-radius: 50%;
+    }
+    
+    .cercle-text{
+        position: absolute;
+        height: 0;
+        width: 180px;
+        text-align: center;
+        top: 95px;
+        left: 85px;
+        line-height: 20px;
+    }
+    
+    .cercle-text h2{
+        font-size: 80px;
+        line-height: 40px;
+        font-weight: 500;
+    }
+    
+    .cercle-text span{
+        font-size: 14px;
+    }
+
+}
+
+
+/* les pourcentages */
+@media screen and (max-width:360px) {
+    .pourcs{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .pourc{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .cercle{
+        width: 320px;
+        border-radius: 50%;
+        position: relative;
+        margin: auto;
+    }
+    
+    svg{
+        width: 320px;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .cercle-text{
+        position: absolute;
+        height: 0;
+        width: 180px;
+        text-align: center;
+        top: 80px;
+        left: 70px;
+    }
+    
+    .cercle-text h2{
+        font-size: 80px;
+        line-height: 40px;
+        font-weight: 500;
+    }
+    
+    .cercle-text span{
+        font-size: 12px;
+        line-height: 10px;
+    }
+}
+
+
+/* les pourcentages */
+@media screen and (max-width:320px) {
+    .pourcs{
+        width: 100%;
+        margin-bottom: auto;
+        margin-top: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .pourc{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .cercle{
+        width: 220px;
+        border-radius: 50%;
+        position: relative;
+        margin: auto;
+    }
+    
+    svg{
+        width: 220px;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .cercle-text{
+        position: absolute;
+        height: 0;
+        width: 120px;
+        text-align: center;
+        top: 55px;
+        left: 50px;
+        line-height: 12px;
+    }
+    
+    .cercle-text h2{
+        font-size: 70px;
+        line-height: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    
+    .cercle-text span{
+        font-size: 8px;
+    }
+}
+
+
+/* le bouton de telechargement du livre  */
+@media screen and (max-width:630px) {
+    .dw-doc{
+        width: 370px;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+
+/* le livre */
+@media screen and (max-width: 400px) {
+
+    /* livre a telecharger */
+    .doc{
+        margin-top: 50px;
+        margin: auto;
+        width: 100%;
+        height: 700px;
+    }
+
+
+    .livre{
+        width: 300px;
+        height: 405px;
+        margin: auto;
+        margin-top: 60px;
+        box-shadow: -6px 2px 5px rgb(0, 0, 0,0.7);
+        color: rgb(243, 243, 222);
+        text-align: center;
+        background: rgb(200,155,118);
+        background: linear-gradient(-90deg, rgba(200,155,118,1) 0%, rgba(200,155,118,1) 88%, rgba(133,107,85,1) 100%);
+        border-left: 5px solid #6a5540;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+
+    .dw-doc{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .livre .span{
+        margin-top: 60px;
+    }
+    
+    .livre .strong{
+        padding-top: 60px;
+        font-size: 20px;
+    }
+    
+    .livre .img{
+        width: 100px;
+        margin: auto;
+        padding-top: 40px;
+    }
+    
+    .livre h1{
+        color: white;
+        font-size: 50px;
+        line-height: 45px;
+        margin-top: 0px;
+    }
+    
+    .dw-doc button{
+        background-color: transparent;
+        border: 2px solid #E7AA7A;
+        width: 100%;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    /* fin */
+}
+
+
+/* les impacts de projets */
+@media screen and (max-width:1424px) {
+    /* impact des projets */
+
+    .impact .i-col{
+        width: 30%;
+        height: fit-content;
+        text-align: center;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* fin */
+}
+
+/* les impacts de projets */
+@media screen and (max-width:850px) {
+    /* impact des projets */
+
+    .impact span{
+        font-size: 90px;
+        font-weight: 400;
+        line-height: 90px;
+    }
+    
+    .impact p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+
+    /* fin */
+}
+
+
+/* les impacts de projets */
+@media screen and (max-width:700px) {
+    /* impact des projets */
+
+    .impact .i-col{
+        width: 400px;
+        height: fit-content;
+        text-align: center;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    /* fin */
+}
